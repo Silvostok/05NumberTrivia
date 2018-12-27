@@ -25,9 +25,9 @@ public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolder>{
         View view;
         // Make a simple check to see if there is no cardviews yet in the recyclerview
         if (viewType == 0) {
-            view = inflater.inflate(R.layout.row_item, parent, false);
+            view = inflater.inflate(R.layout.left_item, parent, false);
         } else { // If there is already one, than load in the backwards view
-            view = inflater.inflate(R.layout.backwards_item, parent, false);
+            view = inflater.inflate(R.layout.right_item, parent, false);
         }
         // return the viewholder
         ViewHolder viewHolder = new ViewHolder(view);
