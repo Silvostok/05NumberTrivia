@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">05NumberTrivia</string>
+    <string name="app_name">05 Number Trivia</string>
     <string name="action_settings">Settings</string>
     <string name="numberResource">30</string>
     <string name="textResource">30 is a number. Placeholder text for the number. This displays some text about the number of the left. Some noteworty fact or funny anecdote.</string>
