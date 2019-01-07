@@ -9,6 +9,7 @@
         android:id="@+id/text_trivia"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_margin="8dp"
         android:layout_weight=".70"
         android:text="@string/textResource" />
 
